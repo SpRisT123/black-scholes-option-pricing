@@ -5,7 +5,7 @@ Python script for pricing European **Call** and **Put** options on any stock tic
 ## What's inside
 - `main.py` – takes user input (ticker, strike price, time to maturity), fetches historical prices and the current US Treasury rate (`^IRX`) via `yfinance`, and runs both pricing models
 - `methods.py` – Black-Scholes formula and Monte Carlo simulation (Geometric Brownian Motion)
-- `plots.py` – histogram of simulated stock prices at maturity ($S_T$) with current and strike price levels
+- `plots.py` – histogram of simulated stock prices at maturity with current and strike price levels
 
 ![Monte Carlo Simulation](mc_plots/monte_carlo_simulation_SPY.png)
 ![Monte Carlo Simulation](mc_plots/monte_carlo_simulation_NVDA.png)
