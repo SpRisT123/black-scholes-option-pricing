@@ -11,5 +11,5 @@ def plot_hist(s_t, current_price, strike_price, ticker):
     plot.ylabel('Number of Simulations', fontsize=14)
     plot.legend()
     plot.title(f"Monte Carlo Simulation of {ticker} Stock Price at Maturity", fontsize=16)
-    plot.savefig(f'monte_carlo_simulation_{ticker}.png', dpi=150)
+    plot.savefig(f'charts/monte_carlo_simulation_{ticker}.png', dpi=150)
     plot.show()
