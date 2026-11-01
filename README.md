@@ -7,4 +7,6 @@ Python script for pricing European **Call** and **Put** options on any stock tic
 - `methods.py` – Black-Scholes formula and Monte Carlo simulation (Geometric Brownian Motion)
 - `plots.py` – histogram of simulated stock prices at maturity ($S_T$) with current and strike price levels
 
-![Monte Carlo Simulation](monte_carlo_simulation_SPY.png)
+![Monte Carlo Simulation](mc_plots/monte_carlo_simulation_SPY.png)
+![Monte Carlo Simulation](mc_plots/monte_carlo_simulation_NVDA.png)
+
